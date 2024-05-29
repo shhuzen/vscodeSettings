@@ -1,0 +1,172 @@
+{
+	"editor.accessibilitySupport": "off",
+	"eslint.workingDirectories": [{ "mode": "auto" }],
+	"editor.largeFileOptimizations": false,
+	"update.showReleaseNotes": false,
+
+	//Theme & font & icons
+	"workbench.colorTheme": "Bearded Theme Arc EolStorm",
+	"editor.fontLigatures": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.guides.bracketPairsHorizontal": true,
+	"workbench.iconTheme": "bearded-icons",
+	"editor.inlineSuggest.showToolbar": "always",
+	"editor.fontFamily": "Fira Code SemiBold",
+	"editor.fontSize": 17,
+	"editor.lineHeight": 30,
+	"glassit.alpha": 245, // прозрачность
+
+	//editor
+	"editor.padding.top": 5, // отступ сверху кода
+	"editor.bracketPairColorization.enabled": false,
+	"editor.minimap.enabled": false, //мини карта
+	"editor.tabSize": 3, // размер таба
+	"workbench.sideBar.location": "right",
+	"workbench.activityBar.location": "top",
+	"window.customTitleBarVisibility": "auto",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+
+	//cursor & scroll
+	"editor.smoothScrolling": true, // плавный скролл
+	"editor.cursorBlinking": "expand",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+
+	//Sidebar folders left right
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"editor.glyphMargin": false,
+	"editor.stickyScroll.enabled": false,
+
+	//autocomplete && suggestions
+	"editor.quickSuggestionsDelay": 0,
+	"window.density.editorTabHeight": "compact",
+
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
+
+	"workbench.editorAssociations": {
+		"*.xlsx": "gc-excelviewer-excel-editor"
+	},
+
+	"emmet.includeLanguages": {
+		// "javascript": "javascriptreact",
+		// "typescript": "typescriptreact"
+	},
+
+	"workbench.colorCustomizations": {},
+
+	//i18n
+	"i18n-ally.dirStructure": "auto",
+	"i18n-ally.enabledFrameworks": ["vue"],
+	"i18n-ally.enabledParsers": ["json", "yaml"],
+	"i18n-ally.extract.autoDetect": true,
+	"i18n-ally.namespace": true,
+	"i18n-ally.pathMatcher": "{namespaces}.json",
+
+	"turboConsoleLog.includeFileNameAndLineNum": true,
+
+	//Хлебные крошки
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showConstructors": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showEnums": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showInterfaces": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showModules": false,
+	"breadcrumbs.showNamespaces": false,
+	"breadcrumbs.showNull": false,
+	"breadcrumbs.showNumbers": false,
+	"breadcrumbs.showObjects": false,
+	"breadcrumbs.showOperators": false,
+	"breadcrumbs.showPackages": false,
+	"breadcrumbs.showProperties": false,
+	"breadcrumbs.showStrings": false,
+	"breadcrumbs.showStructs": false,
+
+	"breadcrumbs.showTypeParameters": false,
+	"breadcrumbs.showVariables": false,
+
+	//JS & TS & VUE
+	"vue.updateImportsOnFileMove.enabled": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+
+	// Spell checker
+
+	"cSpell.language": "en,ru",
+	"cSpell.userWords": [],
+	"cSpell.enabled": true,
+	"cSpell.ignorePaths": [
+		"package-lock.json",
+		"package.json",
+
+		"node_modules",
+		"vscode-extension",
+		".git/objects",
+		".vscode",
+		".vscode-insiders",
+		"settings.json"
+	],
+	"cSpell.enableFiletypes": [
+		"blade",
+		"css",
+		"js",
+		"jsonc",
+		"jsx",
+		"sass",
+		"scss",
+		"ts",
+		"tsx",
+		"vue"
+	],
+
+	//other
+	"security.workspace.trust.untrustedFiles": "open",
+
+	//Terminal
+	"terminal.integrated.env.osx": {},
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.enableImages": true,
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.explorerKind": "both",
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.allowMnemonics": true,
+	"terminal.integrated.smoothScrolling": true, // плавный скролл в терминале
+
+	//Prettier
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.useTabs": true,
+	"prettier.semi": false,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"prettier.arrowParens": "avoid",
+
+	//python
+	"python.analysis.packageIndexDepths": [
+		{
+			"name": "django",
+			"depth": 2
+		}
+	]
+}
