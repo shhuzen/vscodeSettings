@@ -9,10 +9,10 @@
 	"editor.fontLigatures": true,
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
 	"editor.guides.bracketPairsHorizontal": true,
-	"workbench.iconTheme": "bearded-icons",
+	"workbench.iconTheme": "catppuccin-latte",
 	"editor.inlineSuggest.showToolbar": "always",
-	"editor.fontFamily": "Fira Code SemiBold",
-	"editor.fontSize": 17,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontSize": 19,
 	"editor.lineHeight": 30,
 	"glassit.alpha": 245, // прозрачность
 
@@ -168,5 +168,38 @@
 			"name": "django",
 			"depth": 2
 		}
+	],
+
+	//Animations & APC Settings
+	"animations.Install-Method": "Apc Customize UI++",
+	"apc.electron": {
+		"titleBarStyle": "hiddenInset"
+	},
+	"apc.font.family": "Fira code",
+	"apc.listRow": {
+		"lists": ["explorer-folders-view", "quick-input-list", "results"],
+		"height": 30
+	},
+	"vscode_custom_css.imports": [],
+
+	"apc.stylesheet": {
+		".title-actions": "display: none !important",
+		".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
+		".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+		".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
+		".sidebar .title-label": "padding: 0 !important",
+		".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+		".sidebar": "border: none !important",
+		".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
+		".quick-input-list-row div": "display: flex !important; align-items: center !important",
+		// ".panel .composite.title": "visibility: hidden !important",
+		".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
+		".sidebar .title-label h2": "line-height: 2.8 !important",
+		".monaco-editor .scroll-decoration": "display: none !important",
+		".monaco-scrollable-element > .shadow.top": "display: none !important"
+		// ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important"
+	},
+	"apc.imports": [
+		"file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
 	]
 }

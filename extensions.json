@@ -55,7 +55,9 @@
 		"sdras.vue-vscode-snippets",
 		"wassimdev.windows-nt-vscode-theme",
 		"rangav.vscode-thunder-client",
-		"catppuccin.catppuccin-vsc-icons"
+		"catppuccin.catppuccin-vsc-icons",
+		"drcika.apc-extension",
+		"brandonkirbyson.vscode-animations"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": []
